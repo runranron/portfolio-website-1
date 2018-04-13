@@ -12,7 +12,9 @@ class LandingPage extends Component {
           
           {/* add any image link you want */}
           <img 
-          src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
+        //   src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
+        src="https://png.icons8.com/metro/1600/manager.png"
+             
           alt="Avatar"
           className="avatar-img"
           />
@@ -29,9 +31,13 @@ class LandingPage extends Component {
           {/* i will provdie all the links that i used  */}
 
           <div className="social-links">
-          {/* LinkedIn */}
+          {/* Github */}
           <a href="https://github.com/Mohammed-AB/portfolio-website" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" /></a>
+
+            {/* LinkedIn */}
+          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true" /></a>
           </div>
           </div>
           </Cell>

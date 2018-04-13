@@ -1,17 +1,18 @@
 
 /* header color */
 .header-color {
-  background: #03001e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /* Landing pagecolor */
 .landing-grid{
-  background: #03001e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   /* center everything */
   text-align: center;
@@ -32,7 +33,7 @@ background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3
 /* text title */
 
 .title-text {
-  background-color: rgba(160, 93, 134, 0.479);
+  background-color: rgba(31, 35, 71, 0.479);
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -60,10 +61,22 @@ background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3
 }
 
 .social-links i {
-  color: white;
+  color:  white;
   font-size: 5em;
   padding: 8px;
 }
 
+
+.material-icons {
+  color:  black;
+}
+
+.projects-grid{
+  display: flex;
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 
