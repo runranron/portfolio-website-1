@@ -15,14 +15,14 @@ class Projects extends Component {
                 <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto',}}>
-            <CardTitle style={{color: '#fff', height: '260px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '260px', background: 'url(https://image.ibb.co/hvunrn/screencapture_lambda_notes_b2b43_firebaseapp_2018_04_13_17_12_04.png) center / cover'}} >React Project #1</CardTitle>
             <CardText>
                 content
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={() => window.location.assign('https://github.com/runranron/front-end-project-week/tree/firebase')}colored>GitHub</Button>
               <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button onClick={() => window.location.assign('https://lambda-notes-b2b43.firebaseapp.com/')} colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff',}}>
               <IconButton name="share" />

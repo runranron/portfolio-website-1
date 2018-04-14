@@ -8,32 +8,31 @@ background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C,
 }
 
 /* Landing pagecolor */
-.landing-grid{
+.Landing-grid {
   background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(42, 64, 88), #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
   /* center everything */
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  margin: -3rem 0 0 0 !important;
   height: 100%;
 }
 
+.content {
+  padding: 4rem 0 0 0;
+}
 
 /* Landing page Image */
 .avatar-img {
   height: 260px;
-  padding-top: 5em;
+  border-radius: 50%;
 }
 
 /* text title */
 
 .title-text {
-  background-color: rgba(31, 35, 71, 0.479);
   opacity: .8;
   width: 75%;
   margin: auto;
