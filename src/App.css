@@ -2,30 +2,30 @@
 /* header color */
 .header-color {
   background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /* Landing pagecolor */
-.Landing-grid {
+.Content {
+  display: flex;
   background: #141E30;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, rgb(42, 64, 88), #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  height: 100%;
 
   /* center everything */
   text-align: center;
   margin: -3rem 0 0 0 !important;
   height: 100%;
+  min-height: 800px;
 }
 
-.content {
-  padding: 4rem 0 0 0;
-}
 
 /* Landing page Image */
 .avatar-img {
+  margin: 4rem 0 0 0;
   height: 260px;
   border-radius: 50%;
 }
@@ -69,13 +69,3 @@ background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C,
 .material-icons {
   color:  black;
 }
-
-.projects-grid{
-  display: flex;
-  background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-
